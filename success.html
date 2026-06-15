@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donation Successful</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+
+    <h1>🎉 Thank You {{ name }}!</h1>
+
+    <p>
+        Your donation of ₹{{ amount }}
+        has been received successfully.
+    </p>
+
+</header>
+
+<section>
+
+    <h2>Your Support Matters</h2>
+
+    <p>
+        Thank you for contributing towards
+        education, community welfare and
+        sustainable development.
+    </p>
+
+    <a href="/">
+        <button>Back To Home</button>
+    </a>
+
+</section>
+
+</body>
+</html>

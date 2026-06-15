@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<img src="{{ url_for('static', filename='logo.png') }}" width="150">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIQSOLS FOUNDATION</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+
+        <img src="{{ url_for('static', filename='logo.png') }}" width="150">
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#mission">Mission</a>
+            <a href="#directors">Directors</a>
+            <a href="#impact">Impact</a>
+            <a href="#donate">Donate</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <h1>UNIQSOLS FOUNDATION</h1>
+
+        <p class="tagline">
+            Empowering Communities, Shaping Futures
+        </p>
+
+        <p>
+            Welcome to Uniqsols Foundation, a non-profit organization dedicated
+            to creating positive social impact through education, skill
+            development, environmental awareness, and community welfare.
+            We believe in empowering individuals with opportunities that help
+            them build a brighter and more sustainable future.
+        </p>
+
+        <a href="#donate">
+            <button>Donate Now</button>
+        </a>
+
+    </header>
+
+    <section id="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            <b>"Transforming Lives Through Care and Opportunity"</b>
+        </p>
+
+        <p>
+            Uniqsols Foundation is committed to improving lives and strengthening
+            communities through meaningful initiatives. Our focus is on
+            education, skill enhancement, social welfare, and environmental
+            responsibility. By working together with individuals, volunteers,
+            and organizations, we aim to create lasting change and contribute
+            to a better society.
+        </p>
+
+    </section>
+
+    <section id="mission">
+
+        <h2>Our Mission</h2>
+
+        <p>
+            To empower communities through education, skill development,
+            environmental awareness, and social welfare initiatives that
+            create sustainable growth and positive social impact.
+        </p>
+
+    </section>
+
+    <section id="directors">
+
+        <h2>Board of Directors</h2>
+
+        <p>
+            Uniqsols Foundation is guided by experienced leaders who are
+            committed to driving positive social impact and organizational
+            growth.
+        </p>
+
+        <table>
+
+            <tr>
+                <th>Designation</th>
+                <th>Name</th>
+            </tr>
+
+            <tr>
+                <td>Director</td>
+                <td>Asha Rani</td>
+                </tr>
+
+            <tr>
+                <td>Director</td>
+                <td>Neeraj Jain</td>
+                
+            </tr>
+
+        </table>
+
+    </section>
+
+    <section id="impact">
+
+        <h2>Our Impact</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>500+</h3>
+                <p>Children Educated</p>
+            </div>
+
+            <div class="card">
+                <h3>1000+</h3>
+                <p>Meals Distributed</p>
+            </div>
+
+            <div class="card">
+                <h3>100+</h3>
+                <p>Volunteers</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Our Initiatives</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📚 Education Support</h3>
+                <p>Providing quality learning opportunities for students.</p>
+            </div>
+
+            <div class="card">
+                <h3>💻 Skill Development</h3>
+                <p>Training individuals with practical and career skills.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌱 Environment</h3>
+                <p>Promoting environmental awareness and sustainability.</p>
+            </div>
+
+            <div class="card">
+                <h3>🤝 Community Welfare</h3>
+                <p>Supporting communities through social initiatives.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Gallery</h2>
+
+        <div class="cards">
+
+            <div class="card">Education Programs</div>
+
+            <div class="card">Community Welfare</div>
+
+            <div class="card">Environmental Campaigns</div>
+
+        </div>
+
+    </section>
+
+    <section id="donate">
+
+        <h2>Donate Now</h2>
+
+        <p>
+            Every contribution helps us create a better future.
+        </p>
+
+        <form action="/donate" method="POST">
+
+            <input type="text"
+                name="name"
+                placeholder="Full Name"
+                required>
+
+            <input type="email"
+                name="email"
+                placeholder="Email Address"
+                required>
+
+            <input type="text"
+                name="mobile"
+                placeholder="Mobile Number"
+                required>
+
+            <input type="number"
+                name="amount"
+                placeholder="Donation Amount (₹)"
+                required>
+
+            <button type="submit">
+                Donate Now
+            </button>
+
+        </form>
+
+    </section>
+
+    <section>
+
+        <h2>Become a Volunteer</h2>
+
+        <p>
+            Join us in creating positive change and making a difference in
+            people's lives. Help us expand our programs and reach more
+            communities.
+        </p>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p><b>Email:</b> solsuniq@gmail.com</p>
+
+        <p><b>Phone:</b> +91 9716656050</p>
+
+        <p><b>Address:</b> Rohini, Delhi, India</p>
+
+        <p><b>Office Hours:</b> Monday - Saturday : 9:00 AM - 6:00 PM</p>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 Uniqsols Foundation. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
